@@ -8,4 +8,8 @@ public class Engine {
         this.year = year;
         this.price = price;
     }
+
+    public void Running(){
+        System.out.println("Engine is running...");
+    }
 }

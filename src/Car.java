@@ -3,18 +3,19 @@ public class Car implements IVehicle{
     int year;
     double price;
     int wheel;
-    String engine;
+    Engine engine;
 
     public Car(String brand, int year, double price, int wheel, String engine){
         this.brand = brand;
         this.year = year;
         this.price = price;
         this.wheel = wheel;
-        this.engine = engine;
+        this.engine = new Engine("engine1", 2, 45.64);
     }
 
     @Override
     public void Running(){
+        engine.Running();
         System.out.println("Car is running...");
     }
 
