@@ -3,4 +3,5 @@ public interface IVehicle {
     public String getBrand();
     public void setBrand(String brand);
     public void getPrice();
+    public void setPrice();
 }
