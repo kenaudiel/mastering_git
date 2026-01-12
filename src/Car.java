@@ -28,4 +28,14 @@ public class Car implements IVehicle{
     public void setBrand(String brand){
         this.brand = brand;
     }
+
+    @Override
+    public double getPrice(){
+        return price;
+    }
+
+    @Override
+    public void setPrice(double price){
+        this.price = price;
+    }
 }
